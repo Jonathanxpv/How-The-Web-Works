@@ -1,0 +1,55 @@
+Part One: Terminology
+
+HTTP stands for Hypertext Transfer Protocol and it is how browsers and servers communicate.
+
+A URL is a Universal Resource Locator.
+
+DNS stands for Domain Name System and is like a big phone book for the web.
+
+A query string provides extra information like search terms and form info
+
+HTTP verbs include GET, Post, and DELETE.
+
+HTTP responses indicate whether a resquest has been successfully completed.Examples include 404 Not Found, 200 OK, 500 Internal Server Error. 
+
+
+Request headers could be the hostname youre asking about, language your browser wants information in, cookies the server sent and more.
+
+Response headers could be the content type, cookies the server wants to set, caching info and more.
+
+
+***http://site.com/some/page.html?x=1***
+
+means
+
+- Turn “site.com” into `123.45.67.89`
+- Connect to `123.45.67.89`
+- On port 80 (the default)
+- Using the HTTP protocol
+- Ask for ***/some/page.html***
+- Pass along query string: ***x*** = 1
+
+
+Part Two : Practice Tools
+
+$ curl -H "Accept: text/plain" https://icanhazdadjoke.com/pirate
+
+Non-authoritative answer:
+Server:  UnKnown
+Address:  fe80::a4c3:37ff:febc:164
+
+Name:    icanhazdadjoke.com
+Addresses:  2606:4700:3033::6815:420f
+          2606:4700:3032::ac43:c6ad
+          104.21.66.15
+          172.67.198.173
+
+
+
+
+
+
+
+
+
+
